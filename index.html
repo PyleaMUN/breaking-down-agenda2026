@@ -1,1 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PyleaMUN 2026 Agenda</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root { --teal: #006d7a; --cream: #f8f5ec; --nav-bg: #f8f8f0; }
+    body { margin:0; padding-top:56px; font-family:'Lato',sans-serif; background-color:var(--cream); color:#333; }
+    .navbar-custom { background-color:var(--nav-bg); box-shadow:0 2px 4px rgba(0,0,0,0.1); }
+    header { text-align:center; margin:2rem 0; }
+    header img { max-width:200px; margin-bottom:1rem; }
+    h1 { font-family:'Playfair Display',serif; font-size:2.5rem; color:var(--teal); margin-bottom:0.5rem; }
+    .btn-theme { margin:0.5rem; text-align:left; white-space:normal; }
+    .btn-outline-teal { color:var(--teal); border:1px solid var(--teal); }
+    .btn-outline-teal:hover { background-color:var(--teal); color:#fff; }
+    .btn-teal { background-color:var(--teal); color:#fff; border:none; }
+    .modal-body h6 { margin-top:1rem; }
+    .modal-body ul { margin-left:1rem; }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="https://pyleamun.github.io/pyleamun2026/">
+        <img src="pyleaMUNfinallogo1.png" alt="Logo" style="height:40px;" class="me-2">PyleaMUN
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Study Guides</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Agenda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">The People</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Registration</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <header>
+      <img src="pyleaMUNfinallogo.png" alt="Logo">
+      <h1>2026 Committee Agenda</h1>
+      <p class="text-muted">Select a committee to explore its theme and working paper breakdowns.</p>
+    </header>
+
+    <div class="text-center">
+      <!-- Buttons -->
+      <button class="btn btn-outline-teal btn-theme" data-bs-toggle="modal" data-bs-target="#unepModal">UNEP: Balancing Ecotourism and Conservation</button>
+      <button class="btn btn-outline-teal btn-theme" data-bs-toggle="modal" data-bs-target="#scModal">Security Council: Combatting Illicit Small Arms Trade</button>
+      <button class="btn btn-outline-teal btn-theme" data-bs-toggle="modal" data-bs-target="#ecosocModal">ECOSOC: Sustainable Entrepreneurship</button>
+      <button class="btn btn-outline-teal btn-theme" data-bs-toggle="modal" data-bs-target="#unescoModal">UNESCO: Bridging the Digital Divide</button>
+      <button class="btn btn-outline-teal btn-theme" data-bs-toggle="modal" data-bs-target="#natoModal">NATO: Strategic Autonomy Amid U.S. Unpredictability</button>
+      <button class="btn btn-outline-teal btn-theme" data-bs-toggle="modal" data-bs-target="#whoModal">WHO: Adolescent Mental Health</button>
+      <button class="btn btn-outline-teal btn-theme" data-bs-toggle="modal" data-bs-target="#hrcModal">HRC: Protecting Youth in Gaza</button>
+      <button class="btn btn-outline-teal btn-theme" data-bs-toggle="modal" data-bs-target="#unwomenModal">UN Women: Preventing GBV</button>
+    </div>
+    <div class="text-center mt-4">
+      <a href="https://pyleamun.github.io/learning-moment2026/" class="btn btn-teal">Learning Moment</a>
+    </div>
+
+    <!-- Modals -->
+    <!-- UNEP Modal -->
+    <div class="modal fade" id="unepModal" tabindex="-1" aria-labelledby="unepLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="unepLabel">UNEP: Balancing Ecotourism and Conservation</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Content inserted here -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SC Modal -->
+    <div class="modal fade" id="scModal" tabindex="-1" aria-labelledby="scLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="scLabel">Security Council: Combatting Illicit Small Arms Trade</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body"></div>
+        </div>
+      </div>
+    </div>
+    <!-- ECOSOC Modal -->
+    <div class="modal fade" id="ecosocModal" tabindex="-1" aria-labelledby="ecosocLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ecosocLabel">ECOSOC: Sustainable Entrepreneurship</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body"></div>
+        </div>
+      </div>
+    </div>
+    <!-- UNESCO Modal -->
+    <div class="modal fade" id="unescoModal" tabindex="-1" aria-labelledby="unescoLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="unescoLabel">UNESCO: Bridging the Digital Divide</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body"></div>
+        </div>
+      </div>
+    </div>
+    <!-- NATO Modal -->
+    <div class="modal fade" id="natoModal" tabindex="-1" aria-labelledby="natoLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="natoLabel">NATO: Strategic Autonomy Amid U.S. Unpredictability</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body"></div>
+        </div>
+      </div>
+    </div>
+    <!-- WHO Modal -->
+    <div class="modal fade" id="whoModal" tabindex="-1" aria-labelledby="whoLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="whoLabel">WHO: Adolescent Mental Health</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body"></div>
+        </div>
+      </div>
+    </div>
+    <!-- HRC Modal -->
+    <div class="modal fade" id="hrcModal" tabindex="-1" aria-labelledby="hrcLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="hrcLabel">HRC: Protecting Youth in Gaza</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body"></div>
+        </div>
+      </div>
+    </div>
+    <!-- UN Women Modal -->
+    <div class="modal fade" id="unwomenModal" tabindex="-1" aria-labelledby="unwomenLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="unwomenLabel">UN Women: Preventing GBV</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
 
